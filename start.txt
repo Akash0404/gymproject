@@ -1,0 +1,6 @@
+PS C:\Users\ADMIN\Desktop\project> pip freeze > requirements.txt
+PS C:\Users\ADMIN\Desktop\project> 
+python manage.py runserver
+
+PS C:\Users\ADMIN\Desktop\newproject\Gym_Management_System_Django\GMS> python manage.py runserver
+ 
