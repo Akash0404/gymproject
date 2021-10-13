@@ -1,2 +1,2 @@
-# newproject
-gymsystem
+# GYM PROJECT
+Gym Management System
