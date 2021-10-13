@@ -1,0 +1,9 @@
+.nav-link{
+    color:whitesmoke!important;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: lightblue!important;
+    color: black!important;
+    border-radius: 10px;
+}

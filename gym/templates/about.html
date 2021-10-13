@@ -1,0 +1,114 @@
+{% extends 'navigation.html'%}
+{% load static %}
+
+{% block body %}
+
+{% comment %} <div class="container">
+    <h2 class="text-center text-primary font-weight-bold mt-5">About Us</h2>
+    <div class="row mt-5">
+        <div class="col-sm-4 text-center">
+            <img src="{% static 'images/about-us.jpg' %}" width="300" height="200" class="img-responsive" alt="">
+        </div>
+        <div class="col-sm-8 text-center mt-5">
+            <h2><b  style="font-size: xx-large;font-stretch: expanded;font-family: Calibri;"> Why high fit ?</h2><br>
+                HighFit stands apart from regular gyms by breaking the monotony of repetitive workouts through scientifically based functional training and HIIT community driven classes...HighFit is driven by it’s highly certified and experienced coaches who engage with you in not only setting your fitness goals but also make sure you have a fun and effective fitness journey. Whether you want to fit in your favorite jeans or compete in the next football tournament we ensure we push you to achieve your personal best. Thank you.</b>
+        </div>
+    </div>
+</div> {% endcomment %}
+
+   <!-- About US Section Begin -->
+    <section class="aboutus-section" style="background: #222;padding: 9rem;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 p-0">
+                    <div class="about-video set-bg" >
+                    <div class="col-sm-25 ">
+           <img src="{% static 'images/about11.jpg' %}" width="700" height="500" class="img-responsive" alt="">
+        </div>
+                        <a href="https://www.youtube.com/watch?v=78_CkSkGIwU" class="play-btn video-popup" style="display: inline-block;height: 70px;width: 70px;background: #f36100;border-radius: 50%;line-height: 70px;text-align: center;font-size: 36px;color: #ffffff;"><i
+                                class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="about-text"  style="font-size: large;">
+                        <div class="section-title">
+                            <span style="color: whitesmoke;">About Us</span>
+                            <h2  style="color: whitesmoke;">What we have done</h2>
+                        </div>
+                        <div class="at-desc">
+                            <p  style="font-size: large; font-family:calibri;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                                viverra maecenas accumsan lacus vel facilisis. aliquip ex ea commodo consequat sit amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div class="ab-item">
+                                <p  style="font-size: large;font-family:calibri;color:whitesmoke; margin-bottom:13px;">bodybuilding</p>
+                                <div id="bar1" class="barfiller"style="background: #2d2d2d;height: 5px;border: none;margin-bottom: 0;">
+                                    <span class="fill" data-percentage="80" style="background:whitesmoke; width: 317.9px; transition: width 2s ease-in-out 0s;"></span>
+                                    <div class="tipWrap" style="display: inline;">
+                                        <span class="tip" style="color:white;left: 289.291px; transition: left 2s ease-in-out 0s;">80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="ab-item">
+                                <p  style="font-size: large;font-family:calibri;color:whitesmoke;">Training</p>
+                                <div id="bar2" class="barfiller"style="background: #2d2d2d;height: 5px;border: none;margin-bottom: 0;">
+                                    <span class="fill" data-percentage="85" style="background: rgb(255, 255, 255); width: 317.9px; transition: width 2s ease-in-out 0s;"></span>
+                                    <div class="tipWrap" style="display: inline;">
+                                        <span class="tip" style="color:white;left: 289.291px; transition: left 2s ease-in-out 0s;">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ab-item">
+                                <p  style="font-size: large;font-family:calibri;color:whitesmoke;">Fitness</p>
+                                <div id="bar2" class="barfiller"style="background: #2d2d2d;height: 5px;border: none;margin-bottom: 0;">
+                                    <span class="fill" data-percentage="70" style="background:whitesmoke;"></span>
+                                    <div class="tipWrap" style="display: inline;">
+                                        <span class="tip" style="color:white;">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About US Section End -->
+
+
+
+{% endblock%}
+{% block css %}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+color: white;
+text-align: center;
+}
+{% endblock %}
+{% block footer %}
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="text-white" style="font-family:calibri;">Rights @2021 | Gym Management System | All Rights Reserved</p>
+            </div>
+            <div class="col-sm-6">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a  href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock%}
