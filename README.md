@@ -1,2 +1,2 @@
-# gymproject
-gymsystem
+# GYM MANAGEMENT SYSTEM PROJECT
+
